@@ -26,9 +26,9 @@ public abstract class Conteudo {
 
     @Override
     public String toString() {
-        return "Conteudo{" +
-                "titulo='" + titulo + '\'' +
-                ", descricao='" + descricao + '\'' +
-                '}';
+        return "Conteudo { " +
+                "titulo = " + titulo + "\n" +
+                "descricao = " + descricao + "\n";
+                };
     }
-}
+
